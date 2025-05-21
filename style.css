@@ -2,3 +2,45 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* Give the header a blue background and white text */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
